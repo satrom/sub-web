@@ -255,16 +255,16 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "sub-beta.vercel.app": "https://sub-beta.vercel.app/sub?",
-          "subcon.dlj.tf(subconverter作者提供-稳定)":
+          "云端版": "https://tapi.herokuapp.com/sub?",
+          "网络版A": "https://sub-beta.vercel.app/sub?",
+          "网络版B":
             "https://subcon.dlj.tf/sub?",
-          "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
-          "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?",
-          "sub.id9.cc(品云转换)": "https://sub.id9.cc/sub?",
+          "网络版C": "https://api.dler.io/sub?",
+          "网络版D": "https://api.wcc.best/sub?",
+          "网络版E": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
-          { value: "http://localhost:25500/sub?" },
+          { value: "https://tapi.herokuapp.com/sub?" },
           { value: "https://sub-beta.now.sh/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
@@ -272,15 +272,21 @@ export default {
           { value: "https://sub.id9.cc/sub?" },
         ],
         remoteConfig: [
-          {
+           {
             label: "默认",
             options: [
               {
-                label: "不选，由接口提供方提供",
-                value: ""
+                label: "定制规则(网络版)",
+                value:
+                  "https://raw.githubusercontent.com/satrom/Parents/master/Part.ini"
+              },
+              {
+                label: "定制规则(云专属)",
+                value:
+                  "config/Part.ini"
               }
             ]
-          },
+           },
           {
             label: "ACL4SSR",
             options: [
