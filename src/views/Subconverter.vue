@@ -255,17 +255,17 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "云端版": "https://tapi.herokuapp.com/sub?",
-          "网络版A": "https://sub-beta.vercel.app/sub?",
-          "网络版B":
+          "云端版{Tapi}": "https://tapi.herokuapp.com/sub?",
+          "网络版{Vercel}": "https://sub-alpha.vercel.app/sub?",
+          "网络版{Dlj}":
             "https://subcon.dlj.tf/sub?",
-          "网络版C": "https://api.dler.io/sub?",
-          "网络版D": "https://api.wcc.best/sub?",
-          "网络版E": "https://sub.id9.cc/sub?",
+          "网络版{Dler}": "https://api.dler.io/sub?",
+          "网络版{Wcc}": "https://api.wcc.best/sub?",
+          "网络版{Id9}": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
           { value: "https://tapi.herokuapp.com/sub?" },
-          { value: "https://sub-beta.now.sh/sub?" },
+          { value: "https://sub-alpha.vercel.app/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
           { value: "https://api.wcc.best/sub?" },
@@ -555,7 +555,7 @@ export default {
   mounted() {
     this.form.clientType = "clash";
     this.form.customBackend = defaultBackend;
-    this.form.remoteConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
+    this.form.remoteConfig = "https://raw.githubusercontent.com/satrom/Parents/master/Part.ini";
     this.getBackendVersion();
   },
   methods: {
