@@ -5,7 +5,7 @@ services:
     container_name: subweb
     restart: always
     ports: 
-      - "${SUBWEB_PORT}:82"
+      - "${SUBWEB_PORT}:80"
 
   myurls:
     image: "careywong/myurls:latest"
