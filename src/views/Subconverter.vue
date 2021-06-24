@@ -255,7 +255,8 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "云端版{Tapi}": "https://tapi.herokuapp.com/sub?",
+          "自建版{Api}": "https://api.pter.xyz:46/sub?",
+	  "云端版{Tapi}": "https://tapi.herokuapp.com/sub?",
           "网络版{Vercel}": "https://sub-alpha.vercel.app/sub?",
           "网络版{Dlj}":
             "https://subcon.dlj.tf/sub?",
@@ -264,7 +265,8 @@ export default {
           "网络版{Id9}": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
-          { value: "https://tapi.herokuapp.com/sub?" },
+          { value: "https://api.pter.xyz:46/sub?" },
+	  { value: "https://tapi.herokuapp.com/sub?" },
           { value: "https://sub-alpha.vercel.app/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
