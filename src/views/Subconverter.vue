@@ -255,7 +255,7 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "云端版{Api}": "https://api.pter.xyz:46/sub?",
+          "云服版{Api}": "https://api.pter.xyz:46/sub?",
           "网络版{Vercel}": "https://sub-alpha.vercel.app/sub?",
           "网络版{Dlj}":
             "https://subcon.dlj.tf/sub?",
