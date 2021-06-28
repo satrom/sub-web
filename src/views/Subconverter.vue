@@ -560,7 +560,7 @@ export default {
   mounted() {
     this.form.clientType = "clash";
     this.form.customBackend = defaultBackend;
-    this.form.remoteConfig = "https://raw.githubusercontent.com/satrom/Parents/master/Part.ini";
+    this.form.remoteConfig = "";
     this.getBackendVersion();
   },
   methods: {
