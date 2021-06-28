@@ -255,7 +255,7 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "云服版{Api}": "https://api.pter.xyz:46/sub?",
+          "云服{Api}": "https://api.pter.xyz:46/sub?",
           "网络版{Vercel}": "https://sub-alpha.vercel.app/sub?",
           "网络版{Dlj}":
             "https://subcon.dlj.tf/sub?",
@@ -276,12 +276,12 @@ export default {
             label: "默认",
             options: [
               {
-                label: "定制规则(网络版)",
+                label: "定制规则(网络)",
                 value:
                   "https://raw.githubusercontent.com/satrom/Parents/master/Part.ini"
               },
               {
-                label: "定制规则(本地版)",
+                label: "定制规则(云服)",
                 value:
                   "config/Part.ini"
               }
