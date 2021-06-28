@@ -560,7 +560,7 @@ export default {
   mounted() {
     this.form.clientType = "clash";
     this.form.customBackend = defaultBackend;
-    this.form.remoteConfig = "";
+    this.form.remoteConfig = "config/Part.ini";
     this.getBackendVersion();
   },
   methods: {
