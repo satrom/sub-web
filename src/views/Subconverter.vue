@@ -279,6 +279,11 @@ export default {
                 label: "定制规则(网络版)",
                 value:
                   "https://raw.githubusercontent.com/satrom/Parents/master/Part.ini"
+              },
+              {
+                label: "定制规则(本地版)",
+                value:
+                  "config/Part.ini"
               }
             ]
            },
