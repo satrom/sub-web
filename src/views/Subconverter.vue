@@ -256,19 +256,16 @@ export default {
         },
         customBackend: {
           "云服": "https://api.pter.xyz:46/sub?",
-          "云路由":
-            "http://192.168.2.22:25500/sub?",
-          "网络版{Vercel}":
-            "https://sub-alpha.vercel.app/sub?",
-          "网络版{Dlj}":
-            "https://subcon.dlj.tf/sub?",
+          "云路由": "http://192.168.2.22:25500/sub?",
+          "网络版{Vercel}": "https://sub-alpha.vercel.app/sub?",
+          "网络版{Dlj}": "https://subcon.dlj.tf/sub?",
           "网络版{Dler}": "https://api.dler.io/sub?",
           "网络版{Wcc})": "https://api.wcc.best/sub?",
           "网络版{Id9}": "https://sub.id9.cc/sub?"
         },
         backendOptions: [
           { value: "https://api.pter.xyz:46/sub?" },
-	  { value: "http://192.168.2.22:25500/sub?" },
+          { value: "http://192.168.2.22:25500/sub?" },
           { value: "https://sub-alpha.vercel.app/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
