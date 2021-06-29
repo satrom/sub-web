@@ -261,7 +261,7 @@ export default {
           "网络版{Dlj}": "https://subcon.dlj.tf/sub?",
           "网络版{Dler}": "https://api.dler.io/sub?",
           "网络版{Wcc})": "https://api.wcc.best/sub?",
-          "网络版{Id9}": "https://sub.id9.cc/sub?"
+          "网络版{Id9}": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
           { value: "https://api.pter.xyz:46/sub?" },
@@ -270,7 +270,7 @@ export default {
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
           { value: "https://api.wcc.best/sub?" },
-          { value: "https://sub.id9.cc/sub?" }
+          { value: "https://sub.id9.cc/sub?" },
         ],
         remoteConfig: [
            {
