@@ -433,7 +433,7 @@ export default {
         ]
       },
       form: {
-        sourceSubUrl: "",
+        sourceSubUrl: "https://free.pter.xyz:46/clash/proxies",
         clientType: "",
         customBackend: "",
         remoteConfig: "",
