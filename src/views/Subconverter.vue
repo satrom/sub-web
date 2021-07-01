@@ -255,9 +255,9 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "云服": "https://ipc.ibits.ml/sub?",
-          "云路由私钥": "http://192.168.2.22:25500/sub?",
-          "云备": "https://api.pter.xyz:46/sub?",
+          "云服": "https://api.pter.xyz:46/sub?",
+          "云路": "http://192.168.2.22:25500/sub?",
+          "云端": "https://ipc.ibits.ml/sub?",
           "网络版{Vercel}": "https://sub-alpha.vercel.app/sub?",
           "网络版{Dlj}": "https://subcon.dlj.tf/sub?",
           "网络版{Dler}": "https://api.dler.io/sub?",
@@ -265,9 +265,9 @@ export default {
           "网络版{Id9}": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
-          { value: "https://ipc.ibits.ml/sub?" },
-          { value: "http://192.168.2.22:25500/sub?" },
           { value: "https://api.pter.xyz:46/sub?" },
+          { value: "http://192.168.2.22:25500/sub?" },
+          { value: "https://ipc.ibits.ml/sub?" },
           { value: "https://sub-alpha.vercel.app/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
@@ -309,7 +309,7 @@ export default {
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoAuto.ini"
               },
               {
-                label: "网络_无广告拦截",
+                label: "网络_无拦截",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoReject.ini"
               },
@@ -319,57 +319,57 @@ export default {
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
               },
               {
-                label: "网络_精简_去广告",
+                label: "网络_精简去广告",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_AdblockPlus.ini"
               },
               {
-                label: "网络_精简_不测速",
+                label: "网络_精简不测速",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_NoAuto.ini"
               },
               {
-                label: "网络_精简_带转移",
+                label: "网络_精简带转移",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_Fallback.ini"
               },
               {
-                label: "网络_精简_自测转移负载",
+                label: "网络_精简自测转移负载",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"
               },
               {
-                label: "网络_精简_带港美日",
+                label: "网络_精简港美日",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiCountry.ini"
               },
               {
-                label: "网络_全分组",
+                label: "网络_分组",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini"
               },
               {
-                label: "网络_全分组_多模式",
+                label: "网络_分组多模式",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"
               },
               {
-                label: "网络_全分组_无测速",
+                label: "网络_分组无测速",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
               },
               {
-                label: "网络_全分组_去广告",
+                label: "网络_分组去广告",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"
               },
               {
-                label: "网络_全分组_奈飞全量",
+                label: "网络_分组奈飞",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
               },
               {
-                label: "网络_全分组_谷歌全量",
+                label: "网络_分组谷歌",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Google.ini"
               },
@@ -386,7 +386,7 @@ export default {
                 value: "config/ACL4SSR_Mini_NoAuto.ini"
               },
               {
-                label: "云服_精简Fallback",
+                label: "云服_精简FB",
                 value: "config/ACL4SSR_Mini_Fallback.ini"
               },
               {
@@ -394,7 +394,7 @@ export default {
                 value: "config/ACL4SSR_BackCN.ini"
               },
               {
-                label: "云服_无苹果分流",
+                label: "云服_无苹果",
                 value: "config/ACL4SSR_NoApple.ini"
               },
               {
@@ -402,11 +402,11 @@ export default {
                 value: "config/ACL4SSR_NoAuto.ini"
               },
               {
-                label: "云服_无测速&无苹果分流",
+                label: "云服_无测速&苹果",
                 value: "config/ACL4SSR_NoAuto_NoApple.ini"
               },
               {
-                label: "云服_无微软分流",
+                label: "云服_无微软",
                 value: "config/ACL4SSR_NoMicrosoft.ini"
               },
               {
