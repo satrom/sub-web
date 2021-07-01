@@ -294,82 +294,82 @@ export default {
             label: "使徒",
             options: [
               {
-                label: "网络_默认版(与Github同步)",
+                label: "网络_默认版",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
               },
               {
-                label: "网络_去广告(与Github同步)",
+                label: "网络_去广告",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_AdblockPlus.ini"
               },
               {
-                label: "网络_无自动测速(与Github同步)",
+                label: "网络_无测速",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoAuto.ini"
               },
               {
-                label: "网络_无广告拦截规则(与Github同步)",
+                label: "网络_无广告拦截",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoReject.ini"
               },
               {
-                label: "网络_精简版(与Github同步)",
+                label: "网络_精简版",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
               },
               {
-                label: "网络_精简版_去广告(与Github同步)",
+                label: "网络_精简_去广告",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_AdblockPlus.ini"
               },
               {
-                label: "网络_精简版_不带自动测速(与Github同步)",
+                label: "网络_精简_不测速",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_NoAuto.ini"
               },
               {
-                label: "网络_精简版_带故障转移(与Github同步)",
+                label: "网络_精简_带转移",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_Fallback.ini"
               },
               {
-                label: "网络_精简版_自动测速+故障转移+负载均衡(与Github同步)",
+                label: "网络_精简_自测转移负载",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"
               },
               {
-                label: "网络_精简版_带港美日国家(与Github同步)",
+                label: "网络_精简_带港美日",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiCountry.ini"
               },
               {
-                label: "网络_全分组(与Github同步)",
+                label: "网络_全分组",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini"
               },
               {
-                label: "网络_全分组_多模式(与Github同步)",
+                label: "网络_全分组_多模式",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"
               },
               {
-                label: "网络_全分组_无自动测速(与Github同步)",
+                label: "网络_全分组_无测速",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
               },
               {
-                label: "网络_全分组_去广告(与Github同步)",
+                label: "网络_全分组_去广告",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"
               },
               {
-                label: "网络_全分组_奈飞全量(与Github同步)",
+                label: "网络_全分组_奈飞全量",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
               },
               {
-                label: "网络_全分组_谷歌全量(与Github同步)",
+                label: "网络_全分组_谷歌全量",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Google.ini"
               },
@@ -382,11 +382,11 @@ export default {
                 value: "config/ACL4SSR_Mini.ini"
               },
               {
-                label: "云服_精简版+无自动测速",
+                label: "云服_精简无测速",
                 value: "config/ACL4SSR_Mini_NoAuto.ini"
               },
               {
-                label: "云服_精简版+fallback",
+                label: "云服_精简Fallback",
                 value: "config/ACL4SSR_Mini_Fallback.ini"
               },
               {
@@ -398,11 +398,11 @@ export default {
                 value: "config/ACL4SSR_NoApple.ini"
               },
               {
-                label: "云服_无自动测速 ",
+                label: "云服_无测速 ",
                 value: "config/ACL4SSR_NoAuto.ini"
               },
               {
-                label: "云服_无自动测速&无苹果分流",
+                label: "云服_无测速&无苹果分流",
                 value: "config/ACL4SSR_NoAuto_NoApple.ini"
               },
               {
